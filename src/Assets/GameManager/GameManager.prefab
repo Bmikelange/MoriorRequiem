@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7893592754867199181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7893592754867199180}
+  - component: {fileID: 3358107465773838112}
+  - component: {fileID: 7893592754867199171}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7893592754867199180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893592754867199181}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 390.5, y: 219.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3358107465773838112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893592754867199181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd6da1a300401c3a80d5e88445facf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vfxGameObjects:
+  - {fileID: 503629665675618642, guid: fa4fd6daef591a2438d9b056aeb90338, type: 3}
+  - {fileID: 6905150616702398464, guid: 11074691aa0d79f37847ab4d969dc775, type: 3}
+  - {fileID: 1201275100394272339, guid: 0fb7948774029eaeea355dba48619749, type: 3}
+  - {fileID: 1959109391238272042, guid: 51912bd2917051348839ad44ac473243, type: 3}
+  - {fileID: 3186324135856677745, guid: a09301551c85cf6439c0884ffeebe6d7, type: 3}
+  - {fileID: 6115031195296123810, guid: 0fd6832c3bd62af4ab5916c5f6f4f735, type: 3}
+  - {fileID: 5615068144689179842, guid: 88540a1d1f2cb3694951ce7c98b35213, type: 3}
+  - {fileID: 1498248331203105800, guid: d7b8da559f75f5cc1aef0835fb518d30, type: 3}
+  - {fileID: 6829135609370536734, guid: 314a07738ad73f24ca30f7a02a60ace4, type: 3}
+  - {fileID: 1914925526814055036, guid: c2274756a402a98f987174c336a09f78, type: 3}
+  - {fileID: 8891761395327336572, guid: b3e6b778f3faa5645ad24baac5948561, type: 3}
+  - {fileID: 7578399697401458044, guid: 64136ac06e11c6c4588b4b735a2acab1, type: 3}
+  - {fileID: 7645516003991090252, guid: 0b7066d19998803db92977df87ba7aff, type: 3}
+  - {fileID: 1369633901397917868, guid: 62d4ac406f622d1b78afde75b7e97def, type: 3}
+  - {fileID: 1889548266623546281, guid: 7027ce26eed62a3439303dfe3c7d53b1, type: 3}
+  diceIcons:
+  - {fileID: 21300000, guid: 0f5648dc29138f67d9613844067c04c3, type: 3}
+  - {fileID: 21300000, guid: dfe8502de8146c5659089a9374b38e30, type: 3}
+  - {fileID: 21300000, guid: c9e56914749a65524af9870e86eb0b6e, type: 3}
+  - {fileID: 21300000, guid: 1af246df2bbc9faa099532fd0b3735d9, type: 3}
+  - {fileID: 21300000, guid: fe270723fc2d5def29d8893cbd1c749f, type: 3}
+  - {fileID: 21300000, guid: fec384f615413abafa9de23231af7c33, type: 3}
+  - {fileID: 21300000, guid: b5288ed6a5d5cbcca826874b05739d52, type: 3}
+  - {fileID: 21300000, guid: c67f3718e3d5a23b983de618126a2f45, type: 3}
+  - {fileID: 21300000, guid: e6ed76ec26f51fe25b4ddfe66e43b274, type: 3}
+  - {fileID: 21300000, guid: f999b1246b5bb4b588fc7b33e9c4781d, type: 3}
+  - {fileID: 21300000, guid: dc7a74f08f76214fe81646c6a05cf9bf, type: 3}
+  - {fileID: 21300000, guid: 032cb86e08df8b599b2dd9b550b7757a, type: 3}
+  - {fileID: 21300000, guid: 1ce5aa5989ff8e0ca8e4c8e85416565c, type: 3}
+  - {fileID: 21300000, guid: 3c222237ca53fac86886cd50a5e95395, type: 3}
+--- !u!114 &7893592754867199171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893592754867199181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dedc83d0e343f9ce9238ed853015a06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

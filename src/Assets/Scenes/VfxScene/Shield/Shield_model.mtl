@@ -1,0 +1,12 @@
+# Blender MTL File: 'Shield_model_blend.blend'
+# Material Count: 1
+
+newmtl Material
+Ns 359.274786
+Ka 0.663636 0.663636 0.663636
+Kd 0.177271 0.221860 0.234153
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
